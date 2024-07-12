@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
 
-    <title>ubuntu</title>
+    <title>shane@slides</title>
 
     <link rel="stylesheet" href="dist/reset.css" />
     <link rel="stylesheet" href="dist/reveal.css" />
@@ -52,7 +52,7 @@
 
         <section>
           <!-- Term image data  -->
-          <h3>CLI</h3>
+          <h3>Command Line Interface</h3>
 
           <svg
             width="173.45mm"
@@ -169,7 +169,7 @@
         </section>
 
           <section>
-          <h3>GUI</h3>
+          <h3>Graphical User Interface</h3>
           <div style="margin: auto;">
           <div style="float: left">
             <iframe
@@ -210,10 +210,13 @@
 
         <section>
           <h3 class="fragment fade-in">Conversational style</h3>
+          <br>
           <blockquote cite="">
             " Just run a mkdir, cd into the directory, create a hello.py and run the Python interpreter...
             "
           </blockquote>
+          <br>
+          <small class="fragment fade-up">Has a certain flow, but assumes prior knowledge.</small>
         </section>
 
         <section>
@@ -229,7 +232,7 @@
             Finally run <code>python3 hello.py</code>
           </p>
           <br>
-          <small class="fragment fade-up">Good for short, established commands, but can get messy</small>
+          <small class="fragment fade-up">Good for short and well-known commands but can get messy!</small>
         </section>
 
         <section>
@@ -255,7 +258,7 @@
           ></textarea>
           <br>
           <br>
-          <small class="fragment fade-up">Often the best option and highly configurable but still demands choices</small>
+          <small class="fragment fade-up">Highly configurable and often the best option.</small>
         </section>
 
         <section>
@@ -282,6 +285,8 @@
           <pre class="sh" data-cc="hover"><code data-trim data-noescape>
 					python3 hello.py
 				  </code></pre>
+          <br>
+          <small class="fragment fade-up">Breaking things up can help with explanations.</small>
         </section>
 
         <section>
@@ -343,7 +348,7 @@
             data-rows="10"
           ></script>
           <small class="fragment fade-up">Text can be copied, but does the user know?</small>
-          <small class="fragment fade-up">Video has source text, but is it readable?</small>
+          <small class="fragment fade-up">Video has source text, but is it readable??</small>
         </section>
 
         <section data-background-video="./vid/gitFlowTest1.mp4">
@@ -386,7 +391,6 @@
           </pre>
   
           </div>
-                 </section>
           
         </section>
 
@@ -422,6 +426,10 @@
             src="./img/vhs.gif"
             alt="Command prompt showing..."
           />
+          
+          <br>
+          <br>
+          <small class="fragment fade-up"><strong>Command line:</strong> vhs myScript.tape</small>
         </section>
 
         <section>
@@ -453,7 +461,7 @@
                   if (command.trim().toLowerCase() === "ls") {
                     this.echo("hello.py");
                   } else if (command.trim().toLowerCase() === "cat hello.py") {
-                    this.echo("print('hello world)");
+                    this.echo("print('hello world')");
                   } else if (
                     command.trim().toLowerCase() === "python3 hello.py"
                   ) {
@@ -479,8 +487,8 @@
           </script>
 
           <br>
-          <small class=fragment fade-up>Docs are web-based, we can be creative</small>
-          <small class=fragment fade-up>...should we be creative though?</small>
+          <small class=fragment fade-up>Docs are web-based, we can get creative</small>
+          <small class=fragment fade-up>...but should we???</small>
 
         </section>
 
@@ -505,7 +513,7 @@
         </section>
 
         <section>
-          <h2>Sphinx docs solution</h2>
+          <h2>Bespoke code blocks</h2>
           <ol>
             <div class="fragment fade-left">
             <li>Regex to isolate/exclude prompt from copy</li>
@@ -528,7 +536,7 @@
           <br /><br />
 
           <small class="fragment fade-up"
-          ><strong>Comment from engineer:</strong> output in docs helps with user validation</small
+          >In Sphinx, these are set as variables in custom_conf.py</small
           >
         </section>
 
@@ -539,7 +547,7 @@
             <li>Trade-offs between methods of representation</li>
             <li>Better and worse ways to use each approach</li>
             <li>Need clear reasons for unconventional methods</li>
-            <li>Impacts functionality, accessibility, maintainability</li>
+            <li>Think: functionality, accessibility, maintainability</li>
           </ul>
           
         </section>
