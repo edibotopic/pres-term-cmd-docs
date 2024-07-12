@@ -1,17 +1,17 @@
 # Ten Ways to Document Terminal Commands
 
 Source of presentation for Canonical's Documentation Open Office Hours on the
-challenges of documenting terminal commands and some different tools for doing so.
+challenges of documenting terminal commands and some different tools for doing so:
 
-- [Video](#video)
+- [Video](https://youtu.be/LwJMtk3Fbsg?feature=shared)
+- [Slides](https://edibotopic.github.io/pres-term-cmd-docs/)
+
+## Contents
+
 - [What are the ten ways?](#what-are-the-ten-ways)
 - [Documentation tools referenced](#documentation-tools-referenced)
 - [Tools mentioned in the chat](#tools-mentioned-in-the-chat)
 - [Tools used to make the presentation](#tools-used-to-make-the-presentation)
-
-## Video
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LwJMtk3Fbsg?si=An1ShpX_c2o7j2E-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## What are the ten ways?
 
