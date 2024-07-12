@@ -572,8 +572,9 @@
       // - https://revealjs.com/config/
       Reveal.initialize({
         hash: true,
-        // Activate the scroll view
-        scrollProgress: "true",
+        // Deactivate the scroll view on mobile
+        scrollProgress: "false",
+        scrollActivationWidth: null,
          customcontrols: {
             controls: [
               { icon: '<i class="fa fa-pen-square"></i>',
