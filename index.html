@@ -169,7 +169,7 @@
         </section>
 
           <section>
-          <h3>Graphical User Interface</h3>
+          <h4>Graphical User Interface (try it!)</h4>
           <div style="margin: auto;">
           <div style="float: left">
             <iframe
@@ -220,7 +220,7 @@
         </section>
 
         <section>
-          <h2>`In-line`</h2>
+          <h3>`In-line`</h3>
           <p class="fragment fade-up">
             First <code>mkdir test</code> then <code>cd</code> into
             <code>test</code>
@@ -236,7 +236,7 @@
         </section>
 
         <section>
-          <h2>```Code block```</h2>
+          <h3>```Code block```</h3>
           <p>
             Run the following commands to create a test directory and run a
             "hello world" script
@@ -263,7 +263,7 @@
         </section>
 
         <section>
-          <h2>Code block<strong>s</strong></h2>
+          <h3>Code block<strong>s</strong></h3>
           <p class="fragment fade-in" data-fragment-index="1">
             First make a directory called 'test'
           </p>
@@ -291,7 +291,7 @@
         </section>
 
         <section>
-          <h2>Screenshots</h2>
+          <h3>Screenshots</h3>
           <div class="r-stack">
             <img
               class="fragment"
@@ -315,10 +315,13 @@
               height="483"
             />
           </div>
+
+          <small class="fragment fade-up">Process: VM, run commands, <strong>screenshot(s)</strong>, crop, compress, alt text...</small>
+          <small class="fragment fade-up">Good and consistent screenshots take work!</small>
         </section>
 
         <section>
-          <h2>Generated images</h2>
+          <h3>Generated images</h3>
           <img
             src="./img/ubuntu.png"
             title="Command prompt showing creation of test directory and running of hello world python script in that directory"
@@ -327,7 +330,7 @@
         </section>
 
         <section>
-          <h2>Screencasts</h2>
+          <h3>Screencasts</h3>
           <iframe
             width="560"
             height="315"
@@ -338,10 +341,13 @@
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
           ></iframe>
+          <br>
+          <small class="fragment fade-up">Example: a popular personality navigating a complex graphical interface.</small>
+          <small class="fragment fade-up">Question: what is the value proposition for documenting terminal commands?</small>
         </section>
 
         <section>
-          <h2>Video as text</h2>
+          <h3>Video as text</h3>
           <script
             src="https://asciinema.org/a/xIqCbXwmJmlOvxQlEC7ZmQnUN.js"
             id="asciicast-xIqCbXwmJmlOvxQlEC7ZmQnUN"
@@ -349,7 +355,7 @@
             data-rows="10"
           ></script>
           <small class="fragment fade-up">Text can be copied, but does the user know?</small>
-          <small class="fragment fade-up">Video has source text, but is it readable??</small>
+          <small class="fragment fade-up">Video has source text, but is it readable? Let's see...</small>
         </section>
 
         <section data-background-video="./vid/gitFlowTest1.mp4">
@@ -396,7 +402,7 @@
         </section>
 
         <section>
-          <h2>Video as code</h2>
+          <h3>Video as code</h3>
 
           <div style="width: 400px; float: left">
             <pre
@@ -430,11 +436,13 @@
           
           <br>
           <br>
+          <small class="fragment fade-up">Readable source and can be automated</small>
+          <br>
           <small class="fragment fade-up"><strong>Command line:</strong> vhs myScript.tape</small>
         </section>
 
         <section>
-          <h2>Interactive terminal</h2>
+          <h3>Interactive terminal</h3>
           <div class="terminal-wrapper">
             <div id="terminal-section"></div>
           </div>
@@ -490,10 +498,13 @@
           <br>
           <small class=fragment fade-up>Docs are web-based, we can get creative</small>
           <small class=fragment fade-up>...but should we???</small>
+          <br>
+          <small class=fragment fade-in><strong>Note to reader:</strong> try `ls`, `cat hello.py` and `python3 hello.py`</small>
 
         </section>
 
         <section>
+          <h3>Real, complex example</h3>
           <pre class="bash">
             <code data-trim data-noescape>
               PS C:\Users\myuser> $env:WSLENV="USERPROFILE"
@@ -506,18 +517,13 @@
             </code>
 
           </pre>
-          <ul class="fragment fade-in">
-            <li>Mix of inputs and outputs</li>
-            <li>Multiple different prompts
-            <li><strong>Everything</strong> is copied</li>
-          </ul>
         </section>
 
         <section>
-          <h2>Bespoke code blocks</h2>
+          <h3>Bespoke code blocks</h3>
           <ol>
             <div class="fragment fade-left">
-            <li>Regex to isolate/exclude prompt from copy</li>
+            <li>Regex to isolate/exclude prompt from copying</li>
             <pre class="regex">
               <code data-trim data-noescape>
                 ^.*?[\$>#]\s+
@@ -526,7 +532,7 @@
             </div>
 
             <div class="fragment fade-right">
-            <li>CSS to prevent copy button in output blocks</li>
+            <li>CSS to disable copy button in output blocks</li>
             <pre class="css"><code data-trim data-noescape>
               div:not(.no-copy) > div.highlight > pre
             </code></pre>
