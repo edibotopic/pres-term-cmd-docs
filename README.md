@@ -1,11 +1,23 @@
 # Ten Ways to Document Terminal Commands
 
-Presentation for Canonical's Documentation Open Office Hours on the challenges
-of documenting terminal commands and some tools that can help:
+Source of presentation for Canonical's Documentation Open Office Hours on the
+challenges of documenting terminal commands and some different tools for doing so.
 
-## What are the ten?
+- [Video](#video)
+- [What are the ten ways?](#what-are-the-ten-ways)
+- [Documentation tools referenced](#documentation-tools-referenced)
+- [Tools mentioned in the chat](#tools-mentioned-in-the-chat)
+- [Tools used to make the presentation](#tools-used-to-make-the-presentation)
 
-1. In-line code
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LwJMtk3Fbsg?si=An1ShpX_c2o7j2E-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## What are the ten ways?
+
+The presentation broadly focuses on:
+
+1. In-line commands
 2. Code blocks
 3. Screenshots
 4. Terminal image generators
@@ -16,18 +28,22 @@ of documenting terminal commands and some tools that can help:
 9. Interactive CLI
 10. Bespoke code blocks
 
-## Tool reference
+TODO: expand on 1-10 in the readme.
 
-TODO: add links
+## Documentation tools referenced
 
-- Asciicinema
-- VHS
-- Freeze
-- Sphinx docs generator
+- [Asciicinema](https://asciinema.org/)
+- [VHS](https://github.com/charmbracelet/vhs)
+- [Freeze](https://github.com/charmbracelet/freeze)
+- [Sphinx docs generator](https://www.sphinx-doc.org/en/master/)
 
-## Tools used
+## Tools mentioned in the chat
 
-- Slides: reveal.js
-- Embedded terminal: JQuery terminal
-- Drawn terminal animation: anime.js
-- Git commit animation: Pikimov
+- [WebVM](https://webvm.io/)
+
+## Tools used to make the presentation
+
+- Slides: [reveal.js](https://revealjs.com/)
+- Embedded terminal: [JQuery terminal](https://terminal.jcubic.pl/)
+- Drawn yellow terminal animation: [inkscape](https://inkscape.org/) and [anime.js](https://animejs.com/)
+- Git commit motion graphic: [Pikimov](https://pikimov.com/)
