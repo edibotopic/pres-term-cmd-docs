@@ -1,0 +1,48 @@
+/**
+ * Dark Ubuntu theme for reveal.js. This is the opposite of the 'Ubuntu-light' theme.
+ *
+ * By Shane Crowley, edibotopic.com
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #333333;
+
+$mainColor: #FFFFFF;
+$headingColor: #E95420;
+
+$mainFontSize: 42px;
+$mainFont: Ubuntu, Helvetica, sans-serif;
+$headingFont: Ubuntu, Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 500;
+$linkColor: #9F6986;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: rgba( $linkColor, 0.75 );
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+$codeBgColor: #300924;
+$codeFontColor: #FFFFFF;
+
+// Change text colors against light slide backgrounds
+@include light-bg-text-color(#333333);
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------

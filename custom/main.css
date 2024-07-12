@@ -1,0 +1,15 @@
+.pastebox {
+	font-family: "Ubuntu Mono", monospace;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+}
+
+pre > code {
+	font-size: 20px;
+}
+
+/* disable blur due to chalkboard */
+.reveal > .overlay {
+  backdrop-filter: unset!important;
+}
