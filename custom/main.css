@@ -1,3 +1,11 @@
+a {
+  color: blue;
+}
+
+a:visited {
+  color: grey;
+}
+
 .pastebox {
 	font-family: "Ubuntu Mono", monospace;
 	font-size: 20px;
