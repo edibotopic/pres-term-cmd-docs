@@ -47,7 +47,7 @@ The presentation broadly focuses on:
 - Embedded terminal: [JQuery terminal](https://terminal.jcubic.pl/)
 - Drawn yellow terminal animation: [inkscape](https://inkscape.org/) and [anime.js](https://animejs.com/)
 - Git commit motion graphic: [Pikimov](https://pikimov.com/)
-- Interactive 3D visualiser: [WriteHeight(https://edibotopic.github.io/write-height/)
+- Interactive 3D visualiser: [WriteHeight](https://edibotopic.github.io/write-height/)
 
 ## Other references
 
